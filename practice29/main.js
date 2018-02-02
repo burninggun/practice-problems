@@ -9,7 +9,9 @@ function doMath(num1,num2, operator){
         case '-':
             result = num1 + num2;
             break;
-        case 'x'|| '*' || 'X':
+        case 'x':
+        case 'X':
+        case '*':
             result = num1 * num2;
             break;
         case '/':
